@@ -1,0 +1,34 @@
+Script started on 2025-11-06 21:11:47+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="158" LINES="35"]
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mgit bisect start[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect start
+[A
+[?2004lstatus: waiting for both good and bad commits
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mgit bisect bad[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect bad
+[A
+[?2004lstatus: waiting for good commit(s), bad commit known
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ ^[[200~git bisect good <commit-id-of-3rd-commit>
+[?2004lbash: syntax error near unexpected token `newline'
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ ~[K[7mgit bisect good <commit-id-of-3rd-commit>[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect good <commit-id-of-3rd-commit>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P>[1P>[C                       [7m1d407c5 [27m1d407c5 
+[?2004lerror: Bad rev input: 1d407c5
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mgit bisect good   # agar sahi chale[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect good   # agar sahi chale                   
+[?2004l4219a920e47d93528d861f5d77ecb7fc588cb4c0 was both good and bad
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mgit bisect bad  [27mgit bisect bad  
+[?2004l4219a920e47d93528d861f5d77ecb7fc588cb4c0 was both good and bad
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7m<commit-id> is the first bad commit[27m
+^C[?2004l[?2004h[?2004l
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ git [K[K[K[K[7maa5f674 [27maa5f674 is the first bad commit
+[?2004laa5f674: command not found
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mgit bisect reset[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit bisect reset
+[A
+[?2004lAlready on 'main'
+[?2004h]0;manyasharma@hestabit-Latitude-3450: ~/Desktop/HestaBit-tasks2025/Day3[01;32mmanyasharma@hestabit-Latitude-3450[00m:[01;34m~/Desktop/HestaBit-tasks2025/Day3[00m$ [7mexit[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[A
+[?2004lexit
+
+Script done on 2025-11-06 21:16:50+05:30 [COMMAND_EXIT_CODE="0"]
