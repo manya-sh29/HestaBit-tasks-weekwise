@@ -1,0 +1,7 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [3086068ef5b9f876a6366b9ec58aa9af8ed68dc1] Commit 8: Final changes in file1.txt
+git bisect bad 3086068ef5b9f876a6366b9ec58aa9af8ed68dc1
+# status: waiting for good commit(s), bad commit known
+# good: [c48852b74cfc6bec102e8a1efbd674952cdb908c] Commit 3: Updated file1.txt
+git bisect good c48852b74cfc6bec102e8a1efbd674952cdb908c
