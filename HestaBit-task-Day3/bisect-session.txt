@@ -1,0 +1,5 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [a8fa357427ad595ea95d5eb70ac312d6426d1bd5] #Day3 tasks
+git bisect bad a8fa357427ad595ea95d5eb70ac312d6426d1bd5
+# status: waiting for good commit(s), bad commit known
