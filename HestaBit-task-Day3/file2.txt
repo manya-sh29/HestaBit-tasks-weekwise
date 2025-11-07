@@ -1,2 +1,0 @@
-Some content in file2
-BUG: wrong data
