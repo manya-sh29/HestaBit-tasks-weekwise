@@ -1,4 +1,6 @@
 DAY 1 — SYSTEM REVERSE ENGINEERING + NODE & TERMINAL MASTERING
+
+
 #Overview
 This task focused on identifying system configurations, installing and managing Node.js versions via NVM, and benchmarking Buffer vs Stream performance using Node.js — all executed through the terminal.
 
