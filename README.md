@@ -4,13 +4,9 @@ Built a blog page using pure semantic HTML (no CSS). Practised webpage structure
 📚 Concepts Learned
 
 Semantic HTML tags (header, nav, main, article, section, aside, footer)
-
 HTML structure + metadata
-
 Forms (input, select, required, placeholders)
-
 Media embedding (img, audio, video)
-
 Accessibility (alt text, ARIA labels, tabindex)
 
 📂 Folder Structure
