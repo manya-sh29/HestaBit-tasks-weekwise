@@ -1,0 +1,48 @@
+/* ------------------------------ */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ------------------------------ */
+/* Accordion Items */
+.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Accordion Buttons */
+.accordion-btn {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Accordion Content */
+.accordion-content {
+  padding: 15px;
+  display: none; /* hidden by default */
+  background-color: #f1f1f1;
+  font-size: 15px;
+}

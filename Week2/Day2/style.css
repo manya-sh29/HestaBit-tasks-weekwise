@@ -1,0 +1,158 @@
+/* ----------------- RESET ----------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* ----------------- CONTAINER BOX ----------------- */
+.container {
+  border: 3px solid white; /* Outer box */
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+/* ================= HEADER ================= */
+#page-header {
+  display: flex; /* Flexbox */
+  flex-direction: row;
+  height: 60px;
+}
+
+.header-left {
+  flex: 1;
+  background-color: black;
+  color: white;
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right {
+  flex: 3;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= HERO ================= */
+.hero {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6CA0DC;
+  border: 2px solid white;
+}
+
+/* ================= MAIN CONTENT ================= */
+.main-content {
+  display: grid; /* CSS Grid */
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 300px;
+  border: 2px solid white;
+}
+
+.main-left {
+  background-color: darkblue;
+  color: white;
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-middle {
+  background-color: white;
+  border-right: 2px solid white;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  flex: 1;
+  background-color: lightblue;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.extra {
+  flex: 1;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= FOOTER ================= */
+footer.banner {
+  height: 60px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+/* ================= RESPONSIVE MEDIA QUERIES ================= */
+/* Mobile-first: stack layout vertically on small screens */
+@media (max-width: 768px) {
+  #page-header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header-left,
+  .header-right {
+    border-right: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 50px;
+  }
+
+  .main-content {
+    display: flex; /* switch grid to flex-column for mobile */
+    flex-direction: column;
+    height: auto;
+  }
+
+  .main-left,
+  .main-middle,
+  .main-right {
+    border-right: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 100px;
+  }
+
+  .main-right {
+    flex-direction: column;
+  }
+
+  .image,
+  .extra {
+    height: 80px;
+    border-bottom: none;
+  }
+}
