@@ -1,0 +1,5 @@
+Initial content
+Update 1 in file1
+Update 2 in file1
+Final update in file1
+Local uncommitted changes
