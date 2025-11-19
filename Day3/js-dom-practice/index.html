@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS DOM Manipulation Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🌐 NAVBAR TOGGLE -->
+  <nav class="navbar">
+    <h2>My Website</h2>
+    <button id="menu-btn">☰ Menu</button>
+    <ul id="nav-links" class="hidden">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <!-- ⬇️ DROPDOWN -->
+  <section class="dropdown">
+    <button id="dropdown-btn">Select Option ▼</button>
+    <ul id="dropdown-menu" class="hidden">
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </section>
+
+  <!-- 💬 MODAL POPUP -->
+  <section class="modal-section">
+    <button id="open-modal">Open Modal</button>
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <p>This is a Modal Popup!</p>
+        <button id="close-modal">Close</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔢 COUNTER -->
+  <section class="counter">
+    <h3>Counter: <span id="count">0</span></h3>
+    <button id="increase">+</button>
+    <button id="decrease">-</button>
+    <button id="reset">Reset</button>
+  </section>
+
+  <!-- ⌨️ KEY EVENTS -->
+  <section class="key-event">
+    <h3>Press any key:</h3>
+    <p id="key-display">No key pressed yet.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
