@@ -1,0 +1,365 @@
+commit abc2a7a6d89f3b633c0b6b3bfdd7c2031f88b445
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Sat Nov 8 06:37:01 2025 +0530
+
+    Revert "Commit 4: Introduced bug in file2.txt"
+    
+    This reverts commit f324916387304c300fe755176f89eb697a7ffd47.
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+index fbf3f80..e5e808e 100644
+--- a/HestaBit-task-Day3/file2.txt
++++ b/HestaBit-task-Day3/file2.txt
+@@ -1,2 +1 @@
+ Some content in file2
+-BUG: wrong data
+
+commit 82024c6894835467c30b69c7f25e37187535adf1
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:57:32 2025 +0530
+
+    Added bisect session log showing identification of buggy commit
+
+diff --git a/HestaBit-task-Day3/bisect-session.txt b/HestaBit-task-Day3/bisect-session.txt
+new file mode 100644
+index 0000000..73bfcce
+--- /dev/null
++++ b/HestaBit-task-Day3/bisect-session.txt
+@@ -0,0 +1,7 @@
++git bisect start
++# status: waiting for both good and bad commits
++# bad: [3086068ef5b9f876a6366b9ec58aa9af8ed68dc1] Commit 8: Final changes in file1.txt
++git bisect bad 3086068ef5b9f876a6366b9ec58aa9af8ed68dc1
++# status: waiting for good commit(s), bad commit known
++# good: [c48852b74cfc6bec102e8a1efbd674952cdb908c] Commit 3: Updated file1.txt
++git bisect good c48852b74cfc6bec102e8a1efbd674952cdb908c
+
+commit 3086068ef5b9f876a6366b9ec58aa9af8ed68dc1
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:41:55 2025 +0530
+
+    Commit 8: Final changes in file1.txt
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+index ad757bc..d62971d 100644
+--- a/HestaBit-task-Day3/file1.txt
++++ b/HestaBit-task-Day3/file1.txt
+@@ -1,3 +1,4 @@
+ Initial content
+ Update 1 in file1
+ Update 2 in file1
++Final update in file1
+
+commit cbed22a7e061efe2eb151189d82f3d55d06d9dc6
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:41:12 2025 +0530
+
+    Commit 7: Updated file3.txt
+
+diff --git a/HestaBit-task-Day3/file3.txt b/HestaBit-task-Day3/file3.txt
+index 1326999..1706546 100644
+--- a/HestaBit-task-Day3/file3.txt
++++ b/HestaBit-task-Day3/file3.txt
+@@ -1 +1,2 @@
+ Content for file3
++Minor update in file3
+
+commit a4fd979f4d7f481cdcfa6f25662831170347a9da
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:40:00 2025 +0530
+
+    Commit 6: Added file3.txt
+
+diff --git a/HestaBit-task-Day3/file3.txt b/HestaBit-task-Day3/file3.txt
+new file mode 100644
+index 0000000..1326999
+--- /dev/null
++++ b/HestaBit-task-Day3/file3.txt
+@@ -0,0 +1 @@
++Content for file3
+
+commit dd85cf0952f25b2bd3de32148249b9b58fe7e3f4
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:33:39 2025 +0530
+
+    Commit 5: Updated file1.txt again
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+index 950f059..ad757bc 100644
+--- a/HestaBit-task-Day3/file1.txt
++++ b/HestaBit-task-Day3/file1.txt
+@@ -1,2 +1,3 @@
+ Initial content
+ Update 1 in file1
++Update 2 in file1
+
+commit f324916387304c300fe755176f89eb697a7ffd47
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:32:28 2025 +0530
+
+    Commit 4: Introduced bug in file2.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+index e5e808e..fbf3f80 100644
+--- a/HestaBit-task-Day3/file2.txt
++++ b/HestaBit-task-Day3/file2.txt
+@@ -1 +1,2 @@
+ Some content in file2
++BUG: wrong data
+
+commit c48852b74cfc6bec102e8a1efbd674952cdb908c
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:31:34 2025 +0530
+
+    Commit 3: Updated file1.txt
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+index 8430408..950f059 100644
+--- a/HestaBit-task-Day3/file1.txt
++++ b/HestaBit-task-Day3/file1.txt
+@@ -1 +1,2 @@
+ Initial content
++Update 1 in file1
+
+commit 389744abc9083bd4b7a2eb9ac6bc0e952e972b4c
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:30:03 2025 +0530
+
+    Commit 2: Added file2.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+new file mode 100644
+index 0000000..e5e808e
+--- /dev/null
++++ b/HestaBit-task-Day3/file2.txt
+@@ -0,0 +1 @@
++Some content in file2
+
+commit ce0c31311c47b52a8189498524c564972c71d8a0
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:28:56 2025 +0530
+
+    Commit 1: Added file1.txt
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+new file mode 100644
+index 0000000..8430408
+--- /dev/null
++++ b/HestaBit-task-Day3/file1.txt
+@@ -0,0 +1 @@
++Initial content
+
+commit 0e1d82a20499356e5dfa9066645e461679275fbf
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:27:21 2025 +0530
+
+    deleted
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+deleted file mode 100644
+index ad757bc..0000000
+--- a/HestaBit-task-Day3/file1.txt
++++ /dev/null
+@@ -1,3 +0,0 @@
+-Initial content
+-Update 1 in file1
+-Update 2 in file1
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+deleted file mode 100644
+index fbf3f80..0000000
+--- a/HestaBit-task-Day3/file2.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Some content in file2
+-BUG: wrong data
+diff --git a/HestaBit-task-Day3/file3.txt b/HestaBit-task-Day3/file3.txt
+deleted file mode 100644
+index 1326999..0000000
+--- a/HestaBit-task-Day3/file3.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Content for file3
+
+commit e8600352aaa0c13b5457259e6e40ee222f5878f1
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:25:24 2025 +0530
+
+    Commit 6: Added file3.txt
+
+diff --git a/HestaBit-task-Day3/file3.txt b/HestaBit-task-Day3/file3.txt
+new file mode 100644
+index 0000000..1326999
+--- /dev/null
++++ b/HestaBit-task-Day3/file3.txt
+@@ -0,0 +1 @@
++Content for file3
+
+commit d522cd4f6dc779eb8d144151ef46a057fb4a0ba3
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:24:24 2025 +0530
+
+    Commit 5: Updated file1.txt again
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+index 950f059..ad757bc 100644
+--- a/HestaBit-task-Day3/file1.txt
++++ b/HestaBit-task-Day3/file1.txt
+@@ -1,2 +1,3 @@
+ Initial content
+ Update 1 in file1
++Update 2 in file1
+
+commit 673619d3c7d1294366432928e97f0e0dd5925017
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:23:45 2025 +0530
+
+    Commit 4: Introduced bug in file2.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+index e5e808e..fbf3f80 100644
+--- a/HestaBit-task-Day3/file2.txt
++++ b/HestaBit-task-Day3/file2.txt
+@@ -1 +1,2 @@
+ Some content in file2
++BUG: wrong data
+
+commit c0a4c83308063c28cd550eaaeaf8b02707fb42e0
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:22:45 2025 +0530
+
+    Commit 3: Updated file1.txt
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+index 8430408..950f059 100644
+--- a/HestaBit-task-Day3/file1.txt
++++ b/HestaBit-task-Day3/file1.txt
+@@ -1 +1,2 @@
+ Initial content
++Update 1 in file1
+
+commit 333109300afe9696fb72f527733da3c8d64fbf8e
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:21:33 2025 +0530
+
+    Commit 2: Added file2.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+new file mode 100644
+index 0000000..e5e808e
+--- /dev/null
++++ b/HestaBit-task-Day3/file2.txt
+@@ -0,0 +1 @@
++Some content in file2
+
+commit 154182d0f74a3aaaae70924caa31e130424ddcc7
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:19:12 2025 +0530
+
+    Commit 1: Added file1.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+deleted file mode 100644
+index e5e808e..0000000
+--- a/HestaBit-task-Day3/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Some content in file2
+
+commit 1a7851f051b448ce5b34614b1f3fc603ad824ad2
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:15:33 2025 +0530
+
+    Commit 2: Added file2.txt
+
+diff --git a/HestaBit-task-Day3/file2.txt b/HestaBit-task-Day3/file2.txt
+new file mode 100644
+index 0000000..e5e808e
+--- /dev/null
++++ b/HestaBit-task-Day3/file2.txt
+@@ -0,0 +1 @@
++Some content in file2
+
+commit 2711048b6ca048997bd46426456cea43b7b8536a
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:13:44 2025 +0530
+
+    Commit 1: Added file1.txt
+
+diff --git a/HestaBit-task-Day3/file1.txt b/HestaBit-task-Day3/file1.txt
+new file mode 100644
+index 0000000..8430408
+--- /dev/null
++++ b/HestaBit-task-Day3/file1.txt
+@@ -0,0 +1 @@
++Initial content
+
+commit c1a8ab6ccc5f47bd1cb9f817a67dd70b21fb4985
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 20:12:00 2025 +0530
+
+    deleted
+
+diff --git a/HestaBit-task-Day3/bisect-session.txt b/HestaBit-task-Day3/bisect-session.txt
+deleted file mode 100644
+index 6d32b6d..0000000
+--- a/HestaBit-task-Day3/bisect-session.txt
++++ /dev/null
+@@ -1,5 +0,0 @@
+-git bisect start
+-# status: waiting for both good and bad commits
+-# bad: [a8fa357427ad595ea95d5eb70ac312d6426d1bd5] #Day3 tasks
+-git bisect bad a8fa357427ad595ea95d5eb70ac312d6426d1bd5
+-# status: waiting for good commit(s), bad commit known
+diff --git a/HestaBit-task-Day3/git-mastery b/HestaBit-task-Day3/git-mastery
+deleted file mode 160000
+index 2f2157f..0000000
+--- a/HestaBit-task-Day3/git-mastery
++++ /dev/null
+@@ -1 +0,0 @@
+-Subproject commit 2f2157fd1db1c5af99dc5cbf36e6ffba90a8f283
+
+commit 605b6c517996df5f266d5bb760a4cde84013ac73
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 08:03:26 2025 +0530
+
+    update changes
+
+diff --git a/HestaBit-task-Day3/git-mastery b/HestaBit-task-Day3/git-mastery
+index 29e9722..2f2157f 160000
+--- a/HestaBit-task-Day3/git-mastery
++++ b/HestaBit-task-Day3/git-mastery
+@@ -1 +1 @@
+-Subproject commit 29e9722d1f423476e46df4927a42d449e1ed7f01
++Subproject commit 2f2157fd1db1c5af99dc5cbf36e6ffba90a8f283
+
+commit 13ef9a1ca47db6948e61871108f10dff68f04e12
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 07:26:55 2025 +0530
+
+    Added bisect-session.txt - Day3 task completed
+
+diff --git a/HestaBit-task-Day3/bisect-session.txt b/HestaBit-task-Day3/bisect-session.txt
+new file mode 100644
+index 0000000..6d32b6d
+--- /dev/null
++++ b/HestaBit-task-Day3/bisect-session.txt
+@@ -0,0 +1,5 @@
++git bisect start
++# status: waiting for both good and bad commits
++# bad: [a8fa357427ad595ea95d5eb70ac312d6426d1bd5] #Day3 tasks
++git bisect bad a8fa357427ad595ea95d5eb70ac312d6426d1bd5
++# status: waiting for good commit(s), bad commit known
+
+commit a8fa357427ad595ea95d5eb70ac312d6426d1bd5
+Author: Manya Sharma <manyas.hestabit@gmail.com>
+Date:   Fri Nov 7 07:05:34 2025 +0530
+
+    #Day3 tasks
+
+diff --git a/HestaBit-task-Day3/git-mastery b/HestaBit-task-Day3/git-mastery
+new file mode 160000
+index 0000000..29e9722
+--- /dev/null
++++ b/HestaBit-task-Day3/git-mastery
+@@ -0,0 +1 @@
++Subproject commit 29e9722d1f423476e46df4927a42d449e1ed7f01
