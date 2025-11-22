@@ -1,28 +1,72 @@
-"use client";
+// import React from "react";
+// import Input from "./Input";
+// import { FaBars, FaSearch, FaUser } from "react-icons/fa";
 
-import { FaBars, FaUserCircle } from "react-icons/fa";
-import SearchInput from "./Input";
+// function Navbar({ toggleSidebar }) {
+//   return (
+//     <div className="fixed top-0 left-0 w-full bg-gray-900 h-16 px-4 flex items-center justify-between z-10">
+//       <button
+//         type="button"
+//         className="text-gray-300 hover:text-white text-xl"
+//         onClick={toggleSidebar}
+//       >
 
-export default function DarkNavbar({ toggleSidebar }) {
+//         <FaBars />
+//       </button>
+
+      
+
+//       <div className="flex gap-4 h-[67%] w-[30%] min-w-60 justify-between">
+//         <Input />
+//         <button
+//           type="button"
+//           className="text-gray-300 hover:text-white text-xl w-[10%]"
+//         >
+//           <FaUser />
+//         </button>
+//       </div>
+//     </div>
+//   );
+// }
+// export default Navbar;
+
+import React from "react";
+import Input from "./Input";
+import { FaBars, FaSearch, FaUser } from "react-icons/fa";
+
+function Navbar({ toggleSidebar }) {
   return (
-    <nav className="bg-gray-900 text-white flex items-center justify-between px-4 py-3 shadow-md">
-      {/* Left: Sidebar toggle */}
-      <button
-        className="text-white text-2xl focus:outline-none hover:text-gray-300"
-        onClick={toggleSidebar}
-      >
-        <FaBars />
-      </button>
+    <div className="fixed top-0 left-0 w-full bg-gray-900 h-16 px-4 flex items-center justify-between z-10">
+      
+      {/* LEFT SIDE → Bars + Start Bootstrap */}
+      <div className="flex items-center gap-3">
+        <button
+          type="button"
+          className="text-gray-300 hover:text-white text-xl"
+          onClick={toggleSidebar}
+        >
+          <FaBars />
+        </button>
 
-      {/* Center: Search */}
-      <div className="flex-1 mx-4">
-        <SearchInput placeholder="Search..." />
+        {/* ⭐ Added text here */}
+        <span className="text-gray-300 font-semibold text-lg">
+          Start Bootstrap
+        </span>
       </div>
 
-      {/* Right: User icon */}
-      <button className="text-white text-2xl focus:outline-none hover:text-gray-300">
-        <FaUserCircle />
-      </button>
-    </nav>
+      {/* RIGHT SIDE → Search + User */}
+      <div className="flex gap-4 h-[67%] w-[30%] min-w-60 justify-between">
+        <Input />
+        <button
+          type="button"
+          className="text-gray-300 hover:text-white text-xl w-[10%]"
+        >
+          <FaUser />
+        </button>
+      </div>
+    </div>
   );
 }
+
+export default Navbar;
+

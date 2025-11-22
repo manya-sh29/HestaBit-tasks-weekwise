@@ -1,52 +1,18 @@
 "use client";
 
-import React from "react";
-import Card from "./Card";
-import Graph from "./Graph";   // ✅ Missing import added (this fixes the error)
-import Datatable from "./Datatable";
-import BarGraph from "../Charts/BarChart";
-import AreaChart from "../Charts/AreaChart";
-import { FaChartArea, FaChartBar } from "react-icons/fa";
-
-const Dashboard = () => {
+export default function Graph({ title, icon: Icon, typeofgraph }) {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      {/* Main H1 */}
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">Dashboard</h1>
-
-      {/* Grey Box with text 'Dashboard' */}
-      <div className="bg-gray-300 text-gray-800 rounded-lg p-4 mb-6">
-        Dashboard
+    <div className="bg-white rounded-lg shadow-md border flex flex-col w-full h-80">
+      {/* Top header bar */}
+      <div className="flex items-center gap-2 p-4 border-b">
+        {Icon && <Icon className="text-blue-600" size={24} />}
+        <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
       </div>
 
-      {/* Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <Card title="Primary Card" value="Blue Card" color="blue" />
-        <Card title="Warning Card" value="Yellow Card" color="yellow" />
-        <Card title="Success Card" value="Green Card" color="green" />
-        <Card title="Danger Card" value="Red Card" color="red" />
-      </div>
-
-      {/* Graph Section */}
-      <div className="flex flex-col lg:flex-row gap-6 mb-8">
-        {/* Area Chart */}
-        <div className="flex-1">
-          <Graph title="Area Chart" icon={FaChartArea} typeofgraph={<AreaChart />} />
-        </div>
-
-        {/* Bar Chart */}
-        <div className="flex-1">
-          <Graph title="Bar Chart" icon={FaChartBar} typeofgraph={<BarGraph />} />
-        </div>
-      </div>
-
-      {/* Datatable Section */}
-      <div className="bg-white rounded-xl shadow p-4">
-        <h2 className="text-xl font-semibold mb-4">Data Table</h2>
-        <Datatable />
+      {/* Graph area */}
+      <div className="flex-1 p-4">
+        {typeofgraph}
       </div>
     </div>
   );
-};
-
-export default Dashboard;
+}

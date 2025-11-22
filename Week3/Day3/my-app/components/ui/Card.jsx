@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 export default function Card({ CardName, BgColor1, BgColor2 }) {
   return (
-    <div className="rounded-lg overflow-hidden shadow-lg flex flex-col w-64">
+    <div className="rounded-lg overflow-hidden shadow-lg flex flex-col w-64 h-48">
       {/* Top colored section */}
       <div
         className={`h-32 flex items-center justify-center text-white text-xl font-bold`}

@@ -63,7 +63,7 @@ export default function BarGraph() {
   };
 
   return (
-    <div className="w-full h-64">
+    <div className="w-full h-60">
       <Bar data={data} options={options} />
     </div>
   );

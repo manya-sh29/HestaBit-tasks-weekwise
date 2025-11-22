@@ -76,7 +76,7 @@ export default function AreaChart() {
   };
 
   return (
-    <div className="w-full h-64">
+    <div className="w-full h-60">
       <Line data={data} options={options} />
     </div>
   );
