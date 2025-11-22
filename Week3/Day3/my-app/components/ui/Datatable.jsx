@@ -8,7 +8,7 @@ export default function DataTableHeader({ title, entriesOptions = [5, 10, 25, 50
       {/* Top bar with icon + title */}
       <div className="flex items-center mb-4">
         <FaDatabase className="text-blue-600 mr-2" size={24} />
-        <h2 className="text-2xl font-bold text-gray-800">{title}</h2>
+        <h2 className="text-xl font-bold text-gray-800">{title}</h2>
       </div>
 
       {/* Row: Show entries & Search */}

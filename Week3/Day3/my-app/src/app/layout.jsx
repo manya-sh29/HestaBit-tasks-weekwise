@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import "./globals.css";
+import "../app/globals.css";   // ✅ ONLY FIX (correct relative path)
 import Navbar from "../../components/ui/Navbar";
 import Sidebar from "../../components/ui/Sidebar";
 

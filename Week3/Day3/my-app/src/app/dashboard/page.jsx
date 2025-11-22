@@ -10,34 +10,64 @@ import { FaChartArea, FaChartBar } from "react-icons/fa";
 
 const Dashboard = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      {/* Main H1 */}
+    <div className="pt-10 min-h-screen bg-gray-100 p-6 max-w-7xl mx-auto">
+      {/* Main Title */}
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Dashboard</h1>
 
-      {/* Grey Box with text 'Dashboard' */}
+      {/* Grey Box */}
       <div className="bg-gray-300 text-gray-800 rounded-lg p-4 mb-6">
         Dashboard
       </div>
 
-      {/* Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <Card title="Primary Card" value="Blue Card" color="blue" />
-        <Card title="Warning Card" value="Yellow Card" color="yellow" />
-        <Card title="Success Card" value="Green Card" color="green" />
-        <Card title="Danger Card" value="Red Card" color="red" />
-      </div>
+      {/* Cards Section → horizontal row, fixed width */}
+      <div className="flex justify-between mb-8">
 
-      {/* Graph Section */}
-      <div className="flex flex-col lg:flex-row gap-6 mb-8">
-        {/* Area Chart */}
-        <Graph title="Area Chart" icon={FaChartArea} typeofgraph={<AreaChart />} />
+  <div className="flex-1 max-w-[250px]">
+    <Card
+      CardName="Primary Card"
+      BgColor1="#1e3c72"
+      BgColor2="#2a5298"
+    />
+  </div>
 
-        {/* Bar Chart */}
-        <Graph title="Bar Chart" icon={FaChartBar} typeofgraph={<BarGraph />} />
+  <div className="flex-1 max-w-[250px]">
+    <Card
+      CardName="Warning Card"
+      BgColor1="#f6d365"
+      BgColor2="#fda085"
+    />
+  </div>
+
+  <div className="flex-1 max-w-[250px]">
+    <Card
+      CardName="Success Card"
+      BgColor1="#56ab2f"
+      BgColor2="#a8e063"
+    />
+  </div>
+
+  <div className="flex-1 max-w-[250px]">
+    <Card
+      CardName="Danger Card"
+      BgColor1="#cb2d3e"
+      BgColor2="#ef473a"
+    />
+  </div>
+
+</div>
+
+      {/* Charts Section → side by side, fixed widths */}
+      <div className="flex flex-row gap-6 mb-8">
+        <div className="flex-1 max-w-[calc(50%-12px)] bg-white rounded-xl shadow p-4 h-90">
+          <Graph title="Area Chart" icon={FaChartArea} typeofgraph={<AreaChart />} />
+        </div>
+        <div className="flex-1 max-w-[calc(50%-12px)] bg-white rounded-xl shadow p-4 h-90">
+          <Graph title="Bar Chart" icon={FaChartBar} typeofgraph={<BarGraph />} />
+        </div>
       </div>
 
       {/* Datatable Section */}
-      <div className="bg-white rounded-xl shadow p-4">
+      <div className="bg-white rounded-xl shadow p-4 w-full">
         <h2 className="text-xl font-semibold mb-4">Data Table</h2>
         <Datatable />
       </div>

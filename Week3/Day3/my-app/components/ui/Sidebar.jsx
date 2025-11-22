@@ -1,65 +1,207 @@
-"use client";
+// import React from "react";
+// import Link from "next/link";
+// import { FaTachometerAlt, FaBookOpen, FaLayerGroup, FaChartBar, FaTable } from "react-icons/fa";
 
+// function Sidebar(){
+//   return(
+//     <div className="w-[100%] h-screen bg-gray-900 text-gray-300 flex flex-col p-4 space-y-6">
+//       <Link href="/" className="flex items-center text-xl font-semibold text-gray-200 mb-4 hover:bg-gray-800 h-[50px]">
+//       Start Bootstrap
+//       </Link>
+
+//       <div>
+//         <p className="text-xs text-gray-500 mb-2">CORE</p>
+//         <Link href="/dashboard" className="flex items-center gap-3 p-2 hover:bg-gray-800 text-white cursor-pointer">
+//         <FaTachometerAlt className="text-lg" />
+//         <span>Dashboard</span>
+//         </Link>
+//       </div>
+
+//       <div>
+//         <p className="text-xs text-gray-500 mb-2">INTERFACE</p>
+//         <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+//           <FaLayerGroup className="text-lg" />
+//           <span>Layouts</span>
+//         </div>
+
+//         <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+//           <FaBookOpen className="text-lg" />
+//           <span>Pages</span>
+//         </div>
+//         </div>
+
+
+
+//         <div>
+//         <p className="text-xs text-gray-500 mb-2">ADDONS</p>
+//         <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+//           <FaChartBar className="text-lg" />
+//           <span>Charts</span>
+//         </div>
+
+
+//         <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+//          <FaTable className="text-lg" />
+//          <span>Tables</span>
+//       </div>
+//      </div>
+//      </div>
+//   );
+// }
+
+// export default Sidebar;
+
+
+
+import React from "react";
 import Link from "next/link";
-import { FaTachometerAlt, FaCogs, FaPuzzlePiece, FaUser, FaChartLine, FaDatabase } from "react-icons/fa";
+import { FaTachometerAlt, FaBookOpen, FaLayerGroup, FaChartBar, FaTable } from "react-icons/fa";
 
-export default function Sidebar({ sidebarOpen }) {
-  return (
-    <aside
-      className={`bg-gray-800 text-white w-64 p-4 transition-transform duration-300
-        ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} 
-        md:translate-x-0 md:block`}
+function Sidebar({ sidebarOpen }) {   // ⭐ ONLY CHANGE #1
+  return(
+    <div 
+      className={`${sidebarOpen ? "block" : "hidden"} w-[18%] h-screen bg-gray-900 text-gray-300 flex flex-col p-4 space-y-6`}   // ⭐ ONLY CHANGE #2
     >
-      {/* Core Section */}
-      <div className="mb-6">
-        <h2 className="text-gray-400 uppercase text-xs font-semibold mb-2">Core</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link href="/dashboard" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaTachometerAlt /> Dashboard
-            </Link>
-          </li>
-          <li>
-            <Link href="/users" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaUser /> Users
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <Link href="/" className="flex items-center text-xl font-semibold text-gray-200 mb-4 hover:bg-gray-800 h-[0px]">
+        Start Bootstrap
+      </Link>
 
-      {/* Interface Section */}
-      <div className="mb-6">
-        <h2 className="text-gray-400 uppercase text-xs font-semibold mb-2">Interface</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link href="/charts" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaChartLine /> Charts
-            </Link>
-          </li>
-          <li>
-            <Link href="/database" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaDatabase /> Database
-            </Link>
-          </li>
-        </ul>
-      </div>
-
-      {/* Addons Section */}
       <div>
-        <h2 className="text-gray-400 uppercase text-xs font-semibold mb-2">Addons</h2>
-        <ul className="space-y-2">
-          <li>
-            <Link href="/settings" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaCogs /> Settings
-            </Link>
-          </li>
-          <li>
-            <Link href="/plugins" className="flex items-center gap-2 hover:bg-gray-700 p-2 rounded">
-              <FaPuzzlePiece /> Plugins
-            </Link>
-          </li>
-        </ul>
+        <p className="text-xs text-gray-500 mb-2">CORE</p>
+        <Link href="/dashboard" className="flex items-center gap-3 p-2 hover:bg-gray-800 text-white cursor-pointer">
+          <FaTachometerAlt className="text-lg" />
+          <span>Dashboard</span>
+        </Link>
       </div>
-    </aside>
+
+      <div>
+        <p className="text-xs text-gray-500 mb-2">INTERFACE</p>
+        <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+          <FaLayerGroup className="text-lg" />
+          <span>Layouts</span>
+        </div>
+
+        <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+          <FaBookOpen className="text-lg" />
+          <span>Pages</span>
+        </div>
+      </div>
+
+      <div>
+        <p className="text-xs text-gray-500 mb-2">ADDONS</p>
+        <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+          <FaChartBar className="text-lg" />
+          <span>Charts</span>
+        </div>
+
+        <div className="flex items-center gap-3 p-2 hover:bg-gray-800">
+         <FaTable className="text-lg" />
+         <span>Tables</span>
+        </div>
+      </div>
+
+    </div>
   );
 }
+
+export default Sidebar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
