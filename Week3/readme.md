@@ -5,9 +5,7 @@ Week 3 — Advanced Frontend (Next.js + TailwindCSS)
 Week 3 focused on learning how to build modern, frontend applications using Next.js and TailwindCSS.
 The goal was to understand routing, layouts, reusable UI components, responsive design, and building complete multi-page applications with clean architecture.
 The entire week included hands-on exercises, reusable UI system creation, page routing, SEO enhancements, and one final capstone mini-project.
-![alt text](<Screenshot from 2025-11-25 06-09-21.png>)
 
-![alt text](<Screenshot from 2025-11-25 07-08-47.png>)
 
 
 #Folder Structure(Week 3 Project)
@@ -51,7 +49,6 @@ week3
 ├── package.json
 └── README.md
 
-![alt text](<Screenshot from 2025-11-20 19-56-25.png>)
 
 
 #Components List (Reused Across Project)
@@ -73,11 +70,7 @@ Charts components
 AreaCHart.jsx
 BarCHart.jsx
 
-![alt text](<Screenshot from 2025-11-24 09-21-38.png>)
 
-
-
-![alt text](<Screenshot from 2025-11-24 09-22-00.png>)
 
 #Key Learnings
 
