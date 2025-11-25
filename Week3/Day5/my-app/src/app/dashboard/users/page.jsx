@@ -19,7 +19,7 @@ export default function UsersPage() {
     <div className="p-6">
       <h2 className="w-full text-3xl justify-between items-center bg-gray-200 border font-semibold mb-7 pt-17">Users</h2>
 
-      <div className="bg-white shadow rounded-lg">
+      <div className="bg-white shadow rounded-lg overflow-x:auto">
         <table className="w-full border-collapse">
           <thead className="bg-gray-100">
             <tr>
