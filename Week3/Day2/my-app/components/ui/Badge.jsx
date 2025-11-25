@@ -1,5 +1,6 @@
 // components/ui/Badge.jsx
-export default function Badge({ text, color = "blue" }) {
+// Yes, the parentheses contain destructured parameters (text and color) with color having a default value "blue".
+export default function Badge({ text, color = "blue" }) { 
   const colors = {
     blue: "bg-blue-100 text-blue-700",
     green: "bg-green-100 text-green-700",
