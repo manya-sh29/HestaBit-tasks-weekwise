@@ -62,3 +62,24 @@ info: Middlewares loaded {"timestamp":"2025-11-26T04:19:59.171Z"}
 info: Routes mounted {"timestamp":"2025-11-26T04:19:59.172Z"}
 info: Express App initialized {"timestamp":"2025-11-26T04:19:59.172Z"}
 info: Server started on port 5000 {"timestamp":"2025-11-26T04:19:59.173Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:24.577Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:24.578Z"}
+info: Middlewares loaded {"timestamp":"2025-11-26T08:18:24.579Z"}
+info: Routes mounted {"timestamp":"2025-11-26T08:18:24.579Z"}
+info: ✔ Routes mounted: 23 endpoints {"timestamp":"2025-11-26T08:18:24.579Z"}
+info: Express App initialized {"timestamp":"2025-11-26T08:18:24.579Z"}
+info: Server started on port 5000 {"timestamp":"2025-11-26T08:18:24.580Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:25.768Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:25.769Z"}
+info: Middlewares loaded {"timestamp":"2025-11-26T08:18:25.770Z"}
+info: Routes mounted {"timestamp":"2025-11-26T08:18:25.771Z"}
+info: ✔ Routes mounted: 23 endpoints {"timestamp":"2025-11-26T08:18:25.771Z"}
+info: Express App initialized {"timestamp":"2025-11-26T08:18:25.771Z"}
+info: Server started on port 5000 {"timestamp":"2025-11-26T08:18:25.772Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:36.856Z"}
+info: Database connected successfully {"timestamp":"2025-11-26T08:18:36.857Z"}
+info: Middlewares loaded {"timestamp":"2025-11-26T08:18:36.858Z"}
+info: Routes mounted {"timestamp":"2025-11-26T08:18:36.858Z"}
+info: ✔ Routes mounted: 23 endpoints {"timestamp":"2025-11-26T08:18:36.858Z"}
+info: Express App initialized {"timestamp":"2025-11-26T08:18:36.858Z"}
+info: Server started on port 5000 {"timestamp":"2025-11-26T08:18:36.859Z"}
