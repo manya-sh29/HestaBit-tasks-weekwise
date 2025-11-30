@@ -1,0 +1,311 @@
+info: Middlewares loaded {"timestamp":"2025-11-27T01:51:44.466Z"}
+info: All routes mounted {"timestamp":"2025-11-27T01:51:44.467Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T01:56:12.203Z"}
+info: All routes mounted {"timestamp":"2025-11-27T01:56:12.204Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T01:56:13.719Z"}
+info: All routes mounted {"timestamp":"2025-11-27T01:56:13.721Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T01:56:22.190Z"}
+info: All routes mounted {"timestamp":"2025-11-27T01:56:22.191Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T01:56:30.663Z"}
+info: All routes mounted {"timestamp":"2025-11-27T01:56:30.665Z"}
+error: Error creating user: User validation failed: password: Path `password` is required., lastName: Last name is required, firstName: First name is required {"timestamp":"2025-11-27T01:56:45.564Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:08:57.566Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:08:57.568Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:09:00.869Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:09:00.871Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:09:44.350Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:09:44.352Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:09:46.528Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:09:46.529Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:09:52.224Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:09:52.225Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:09:54.550Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:09:54.551Z"}
+error: Error creating user: User validation failed: lastName: Last name is required, firstName: First name is required {"timestamp":"2025-11-27T02:10:53.191Z"}
+error: Error creating user: User validation failed: lastName: Last name is required, firstName: First name is required {"timestamp":"2025-11-27T02:11:13.971Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:12:10.345Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:15:38.284Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:15:38.285Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:16:07.239Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:16:07.240Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:16:09.738Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:16:09.739Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:16:10.894Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:16:10.895Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:16:18.739Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:16:18.740Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:16:32.829Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:16:34.102Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:19:03.394Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:19:03.395Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:19:04.156Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:19:04.157Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:21:35.032Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:21:35.033Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:21:38.753Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:21:38.755Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:21:40.922Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:21:40.923Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:21:45.835Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:21:45.836Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:21:50.796Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:21:50.797Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:22:01.880Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:22:01.881Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:22:05.149Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:22:05.150Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:22:31.465Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:22:31.465Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:23:09.894Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:23:09.895Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:23:12.597Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:23:12.598Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:27:29.730Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:27:29.731Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:27:30.282Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:27:30.283Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:27:33.208Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:27:33.210Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:28:37.850Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:28:37.852Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:28:46.170Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:28:46.170Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:28:47.327Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:28:47.327Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:35.944Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:35.946Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:35.955Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:35.958Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:41.852Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:41.853Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:41.863Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:41.864Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:42.526Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:42.527Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:30:42.528Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:30:42.529Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:30:53.470Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:30:53.470Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:30:58.664Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:30:58.664Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:45:16.372Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:45:16.376Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T02:45:16.439Z"}
+info: All routes mounted {"timestamp":"2025-11-27T02:45:16.441Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:23.068Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:23.195Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:23.196Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:24.401Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:24.518Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:24.519Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:26.009Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:26.102Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:26.102Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:26.490Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:26.599Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:26.600Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:28.817Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:28.912Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:28.913Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:40.648Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:40.764Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:40.765Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:45:42.236Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:45:42.329Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:45:42.330Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:46:08.277Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:46:08.370Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:46:08.370Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T02:46:18.399Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T02:46:18.492Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T02:46:18.492Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T03:35:35.582Z"}
+info: All routes mounted {"timestamp":"2025-11-27T03:35:35.585Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T03:36:50.138Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T03:36:50.249Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T03:36:50.250Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:11:05.578Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:11:05.581Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:11:15.662Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:11:15.665Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:11:31.279Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:11:31.281Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:11:40.194Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:11:40.196Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T04:11:56.697Z"}
+error: Error creating user: next is not a function {"timestamp":"2025-11-27T04:11:56.802Z"}
+error: Unhandled error: next is not a function {"timestamp":"2025-11-27T04:11:56.802Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:25:47.335Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:25:47.338Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:28:15.436Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:28:15.438Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:28:31.462Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:28:31.464Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:28:51.324Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:28:51.326Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:29:01.968Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:29:01.971Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:29:07.562Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:29:07.564Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:29:09.492Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:29:09.494Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:30:45.373Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:30:45.376Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:31:08.425Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:31:08.427Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:31:23.791Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:31:23.793Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:32:26.026Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:32:26.027Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:36:52.639Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:36:52.640Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:40:10.159Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:40:10.161Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:40:10.197Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:40:10.198Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:42:27.970Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:42:27.971Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:42:27.990Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:42:27.991Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:51:17.472Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:51:17.473Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:51:17.485Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:51:17.486Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:51:17.856Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:51:17.857Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:51:17.876Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:51:17.877Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:51:38.996Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:51:38.997Z"}
+error: Unhandled error: Unexpected non-whitespace character after JSON at position 101 (line 7 column 1) {"timestamp":"2025-11-27T04:51:50.444Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:32.389Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:32.391Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:32.426Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:32.427Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:32.482Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:32.484Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:38.950Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:38.951Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:39.002Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:39.003Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:52:39.025Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:52:39.026Z"}
+error: Unhandled error: Unexpected non-whitespace character after JSON at position 101 (line 7 column 1) {"timestamp":"2025-11-27T04:52:43.849Z"}
+error: Unhandled error: Unexpected non-whitespace character after JSON at position 101 (line 7 column 1) {"timestamp":"2025-11-27T04:52:45.476Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T04:53:05.765Z"}
+error: Error creating user: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T04:53:15.826Z"}
+error: Unhandled error: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T04:53:15.827Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:54:55.760Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:54:55.762Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:54:55.785Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:54:55.786Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T04:54:55.826Z"}
+info: All routes mounted {"timestamp":"2025-11-27T04:54:55.828Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T05:00:30.630Z"}
+error: Error creating user: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:00:40.694Z"}
+error: Unhandled error: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:00:40.696Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:05:29.587Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:05:29.588Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T05:10:57.215Z"}
+error: Error creating user: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:11:07.336Z"}
+error: Unhandled error: Operation `users.insertOne()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:11:07.336Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:12:48.257Z"}
+error: Error getting users: Operation `users.find()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:12:58.266Z"}
+error: Unhandled error: Operation `users.find()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:12:58.267Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:19:46.657Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:19:46.659Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:19:52.616Z"}
+error: Error getting users: Operation `users.find()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:20:02.621Z"}
+error: Unhandled error: Operation `users.find()` buffering timed out after 10000ms {"timestamp":"2025-11-27T05:20:02.622Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:32:53.569Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:32:53.572Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:32:53.630Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:32:53.633Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:32:53.657Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:32:53.660Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:00.125Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:00.127Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:00.197Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:00.200Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:00.241Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:00.245Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:03.126Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:03.130Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:03.153Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:03.156Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:03.292Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:03.295Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:05.361Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:05.363Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:05.413Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:05.416Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:05.489Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:05.492Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:33:39.556Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:33:39.559Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:47.623Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:47.628Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:47.811Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:47.814Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:47.810Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:47.814Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:47.824Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:47.829Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:54.127Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:54.130Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:54.306Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:54.309Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:54.376Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:54.380Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:54.380Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:54.384Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:55.224Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:55.227Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:55.364Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:55.367Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:55.361Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:55.366Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:55.417Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:55.421Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:58.548Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:58.550Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:58.628Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:58.631Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:58.667Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:58.672Z"}
+info: Middlewares loaded {"timestamp":"2025-11-27T05:34:58.699Z"}
+info: All routes mounted {"timestamp":"2025-11-27T05:34:58.704Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:35:02.089Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:38:09.068Z"}
+info: POST /api/users/ {"timestamp":"2025-11-27T05:38:17.560Z"}
+info: User created successfully {"timestamp":"2025-11-27T05:38:17.705Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:41:57.881Z"}
+info: GET /api/users/id:1 {"timestamp":"2025-11-27T05:42:55.378Z"}
+error: Error fetching user: Cast to ObjectId failed for value "id:1" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:42:55.381Z"}
+error: Unhandled error: Cast to ObjectId failed for value "id:1" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:42:55.382Z"}
+info: GET /api/users/ {"timestamp":"2025-11-27T05:46:30.072Z"}
+info: GET /api/users/id:6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:46:49.562Z"}
+error: Error fetching user: Cast to ObjectId failed for value "id:6927e3c92f99a7d475d19e56" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:46:49.563Z"}
+error: Unhandled error: Cast to ObjectId failed for value "id:6927e3c92f99a7d475d19e56" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:46:49.564Z"}
+info: GET /api/users/id:6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:46:52.749Z"}
+error: Error fetching user: Cast to ObjectId failed for value "id:6927e3c92f99a7d475d19e56" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:46:52.750Z"}
+error: Unhandled error: Cast to ObjectId failed for value "id:6927e3c92f99a7d475d19e56" (type string) at path "_id" for model "User" {"timestamp":"2025-11-27T05:46:52.751Z"}
+info: GET /api/users/6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:48:00.125Z"}
+info: PATCH /api/users/6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:52:21.383Z"}
+info: PATCH /api/users/6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:57:23.396Z"}
+info: PATCH /api/users/6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T05:58:03.301Z"}
+info: PATCH /api/users/6927e3c92f99a7d475d19e56 {"timestamp":"2025-11-27T06:01:03.830Z"}
+info: PATCH /api/product {"timestamp":"2025-11-27T06:03:02.794Z"}
+info: GET /api/products {"timestamp":"2025-11-27T06:03:11.869Z"}
+info: PUT /api/products {"timestamp":"2025-11-27T06:05:06.663Z"}
+info: PUT /api/product {"timestamp":"2025-11-27T06:05:27.051Z"}
+info: PUT /api/products/ {"timestamp":"2025-11-27T06:05:40.165Z"}
+info: POST /api/products/ {"timestamp":"2025-11-27T06:06:12.458Z"}
+info: Product created successfully {"timestamp":"2025-11-27T06:06:12.466Z"}
+error: Unhandled error: Unexpected end of JSON input {"timestamp":"2025-11-27T06:07:09.652Z"}
+error: Unhandled error: Unexpected end of JSON input {"timestamp":"2025-11-27T06:07:18.224Z"}
+error: Unhandled error: Unexpected end of JSON input {"timestamp":"2025-11-27T06:09:08.847Z"}
+error: Unhandled error: Unexpected end of JSON input {"timestamp":"2025-11-27T06:09:14.753Z"}
+info: GET /api/product/ {"timestamp":"2025-11-27T06:10:36.157Z"}
+info: GET /api/products/ {"timestamp":"2025-11-27T06:10:59.844Z"}
+info: GET /api/products/6927ea542f99a7d475d19e61 {"timestamp":"2025-11-27T06:14:19.220Z"}
