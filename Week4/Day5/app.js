@@ -9,3 +9,4 @@ app.use(tracingMiddleware);
 app.use("/api/v1/email", emailRoutes);
 
 export default app;
+
