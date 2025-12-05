@@ -5,22 +5,38 @@ It ensures maintainability, scalability, and clear separation of concerns.
 #Folder Structure-
 src/
 ├── config/
+|
 ├── loaders/
+|
 ├── models/
+|
 ├── routes/
+|
 ├── controllers/
+|
 ├── services/
+|
 ├── repositories/
+|
 ├── middlewares/
+|
 ├── utils/
+|
 ├── jobs/
+|
 └── logs/
-server.js
-.env.local
-.env.dev
-.env.prod
-package.json
-package-lock.json
+|
+└──server.js
+|
+└──.env.local
+|
+└──.env.dev
+|
+└──.env.prod
+|
+└──package.json
+|
+└──package-lock.json
 
 #Key Concepts-
 
