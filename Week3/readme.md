@@ -54,21 +54,34 @@ week3
 #Components List (Reused Across Project)
 
 UI Components
-Button.jsx
-Input.jsx
-Card.jsx
-Badge.jsx
-Modal.jsx
-Datatable.jsx
-Graph.jsx
-ProfileCard.jsx
-Table.jsx
-Navbar.jsx
-Sidebar.jsx
 
-Charts components
-AreaCHart.jsx
-BarCHart.jsx
+Button.jsx – Reusable button component with sizes, variants, and icons.
+
+Input.jsx – Standardized input field with label + error handling.
+
+Card.jsx – Wrapper for showing boxed content with padding and shadow.
+
+Badge.jsx – Small label UI used for status, tags, categories.
+
+Modal.jsx – Popup UI for confirmations, dialogs, forms.
+
+Datatable.jsx – Table UI for listing users/data in rows and columns.
+
+Graph.jsx – General graph wrapper for charts.
+
+ProfileCard.jsx – Profile UI block showing image, name, details.
+
+Table.jsx – Simple reusable table layout.
+
+Navbar.jsx – Top navigation bar for dashboard.
+
+Sidebar.jsx – Dashboard left navigation menu.
+
+Charts Components
+
+AreaChart.jsx – Displays area-based graphs for trends.
+
+BarChart.jsx – Shows bar-style visual analytics.
 
 
 
@@ -97,6 +110,5 @@ BarCHart.jsx
 6.Routing Concepts
  Nested routing (dashboard → users/profile).
  Creating multiple pages with page.jsx files.
-
 
 
