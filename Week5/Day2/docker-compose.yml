@@ -1,0 +1,29 @@
+services:
+  mongo:
+    image: mongo:6
+    container_name: mongo_container
+    ports:
+      - "27018:27017"   
+    volumes:
+      - mongo_data:/data/db
+
+  server:
+    build: ./server
+    container_name: server_container
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/day2db
+    depends_on:
+      - mongo
+
+  client:
+    build: ./client
+    container_name: client_container
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+volumes:
+  mongo_data:
