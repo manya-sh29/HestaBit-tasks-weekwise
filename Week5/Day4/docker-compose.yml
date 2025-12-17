@@ -1,0 +1,31 @@
+services:
+  client:
+    build: ./client
+    container_name: client
+    ports:
+      - "3000:3000"
+    restart: always
+
+  server:
+    build: ./server
+    container_name: server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server:/app
+    command: ["node", "server.js"]
+    restart: always
+
+  nginx:
+    image: day4-nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - client
+      - server
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/certs:/etc/nginx/certs
+    restart: always
