@@ -1,36 +1,28 @@
-EDA Report
+Day 1 — EDA Observations
 
 1.Dataset Overview
-- Number of rows: 
-- Number of columns: 
-- Column names and data types: 
+   - Total rows: <fill rows>
+   - Total columns: <fill columns>
+   - Numeric and categorical features identified
 
 2.Missing Values
-- Columns with missing values: 
-- How missing values were handled: (median for numeric, mode for categorical)
+   - Some columns have missing values
+   - Visualized using heatmap
+   - Plan: handle missing values during preprocessing
 
- 3.Duplicates
-- Number of duplicate rows removed: 
+3.Feature Distributions
+   - Numeric features: distributions checked via histograms and boxplots
+   - Outliers visible in some features
+   - Skewed distributions noted
 
-4.Outliers
-- Method used to remove outliers: Z-score
-- Any important observations about outliers: 
+4.Target Variable
+   - Target distribution visualized
+   - Classes appear slightly imbalanced → can handle via weighting or SMOTE
 
-5.Target Column
-- Target column name: 
-- Distribution of classes: 
-- Balanced / Imbalanced: 
+5.Correlation Matrix
+   - Only numeric columns considered
+   - Strong correlation observed between <fill correlated features if any>
+   - No perfect multicollinearity detected
 
-6.Feature Distributions
-- Important insights from numeric features: 
-- Any skewed features: 
-
-7.Correlation Matrix
-- Highly correlated features: 
-- Any negative correlations observed: 
-
-8.Key Observations
-- Data is clean and ready for modeling
-- No missing values remain
-- Outliers have been removed
-- Dataset is balanced / imbalanced (mention)
+6. **Next Steps**
+   - Proceed with feature engineering & preprocessing pipeline
