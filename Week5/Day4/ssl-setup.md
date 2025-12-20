@@ -33,3 +33,17 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
+```
+
+# Screenshots 
+![alt text](screenshots/W5-D4_1.png)   
+
+![alt text](screenshots/W5-D4_2.png)
+
+![alt text](screenshots/W5-D4_3.png)
+
+![alt text](screenshots/W5-D4_4.png)
+
+
+
+
