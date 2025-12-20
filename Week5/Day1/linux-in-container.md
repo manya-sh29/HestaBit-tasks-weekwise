@@ -24,3 +24,18 @@ docker logs -f test-container
 8. Volumes & Networks 
 docker volume ls
 docker network ls
+
+
+![alt text](screenshots/W5-D1_1.png)
+
+![alt text](screenshots/W5-D1_2.png)
+
+![alt text](screenshots/W5-D1_3.png)
+
+![alt text](screenshots/W5-D1_4.png)
+
+![alt text](screenshots/W5-D1_5.png)
+
+![alt text](screenshots/W5-D1_6.png)
+
+![alt text](screenshots/W5-D1_7.png)
