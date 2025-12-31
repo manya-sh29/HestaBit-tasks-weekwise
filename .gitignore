@@ -1,0 +1,10 @@
+/.venv
+/src/data/raw
+/src/data/cleaned
+/src/__pycache__
+/src/utils/__pycache__
+/src/retriever/__pycache__
+/src/embeddings/__pycache__
+/src/vectorstore/__pycache__
+/src/pipelines/__pycache__
+

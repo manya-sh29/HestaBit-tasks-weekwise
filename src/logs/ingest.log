@@ -1,0 +1,27 @@
+2025-12-30 17:19:14,983 - INFO - Starting ingestion pipeline...
+2025-12-30 17:19:42,493 - INFO - Starting ingestion pipeline...
+2025-12-30 17:19:43,625 - INFO - Loaded 24 documents.
+2025-12-30 17:19:43,632 - INFO - Created 95 chunks.
+2025-12-30 17:19:45,277 - INFO - Generated embeddings for all chunks.
+2025-12-30 17:19:45,278 - INFO - Stored vectors and metadata in FAISS.
+2025-12-30 17:19:45,278 - INFO - Ingestion pipeline completed successfully.
+2025-12-30 19:48:23,211 - INFO - Starting ingestion pipeline...
+2025-12-30 19:48:24,422 - INFO - Loaded 24 documents.
+2025-12-30 19:48:24,428 - INFO - Created 95 chunks.
+2025-12-30 19:48:26,002 - INFO - Generated embeddings for all chunks.
+2025-12-30 19:48:26,003 - INFO - Stored vectors and metadata in FAISS.
+2025-12-30 19:48:26,003 - INFO - Ingestion pipeline completed successfully.
+2025-12-31 13:39:19,511 - INFO - Starting ingestion pipeline...
+2025-12-31 13:39:20,727 - INFO - Loaded 24 documents.
+2025-12-31 13:39:20,737 - INFO - Created 95 chunks.
+2025-12-31 13:39:22,354 - INFO - Generated embeddings for all chunks.
+2025-12-31 13:39:22,355 - INFO - Stored vectors and metadata in FAISS.
+2025-12-31 13:39:22,355 - INFO - Ingestion pipeline completed successfully.
+2025-12-31 15:02:24,281 - INFO - Starting ingestion pipeline...
+2025-12-31 15:23:41,984 - INFO - Starting ingestion pipeline...
+2025-12-31 15:24:24,073 - INFO - Starting ingestion pipeline...
+2025-12-31 15:25:14,902 - INFO - Loaded 12437 documents.
+2025-12-31 15:25:25,061 - INFO - Created 66431 chunks.
+2025-12-31 16:08:45,525 - INFO - Generated embeddings for all chunks.
+2025-12-31 16:08:45,860 - INFO - Stored vectors and metadata in FAISS.
+2025-12-31 16:08:45,860 - INFO - Ingestion pipeline completed successfully.
