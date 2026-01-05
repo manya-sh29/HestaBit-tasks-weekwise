@@ -24,6 +24,15 @@ class HybridRetriever:
 
         return filtered_docs, np.array(filtered_embs)
 
+    def rrf(self, rankings, k=60):
+        scores = {}
+
+        for rank_list in rankings:
+            for rank, idx in enumerate(rank_list):
+                scores[idx] = scores.get(idx, 0) + 1 / (k + rank + 1)
+
+        return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
     def retrieve(self, query, top_k=5, filters=None):
         docs, embs = self.apply_filters(filters)
 
@@ -35,7 +44,11 @@ class HybridRetriever:
 
         bm25_scores = self.bm25.get_scores(query.lower().split())
 
-        combined_scores = semantic_scores + bm25_scores[:len(semantic_scores)]
-        top_indices = np.argsort(combined_scores)[::-1][:top_k * 2]
+        semantic_rank = np.argsort(semantic_scores)[::-1]
+        bm25_rank = np.argsort(bm25_scores)[::-1]
+
+        fused_ranks = self.rrf([semantic_rank, bm25_rank])
+
+        top_indices = [idx for idx, _ in fused_ranks[:top_k]]
 
         return [docs[i] for i in top_indices]
