@@ -1,0 +1,22 @@
+[
+  {
+    "role": "bot",
+    "content": "RAG is an acronym for Red, Amber, and Green, which is a traffic light system used to represent the status or risk level of various projects, issues, or risks. Red indicates high risk or a critical issue, Amber indicates medium risk or a potential issue, and Green indicates low risk or a stable situation. This system is often used in project management to help teams prioritize their work and focus on the most critical issues first."
+  },
+  {
+    "role": "user",
+    "content": "what is rag"
+  },
+  {
+    "role": "bot",
+    "content": "RAG is an acronym for Red, Amber, and Green, which is a traffic light system used to represent the status or risk level of various projects, issues, or risks. Red indicates high risk or a critical issue, Amber indicates medium risk or a potential issue, and Green indicates low risk or a stable situation. This system is often used in project management to help teams prioritize their work and focus on the most critical issues first."
+  },
+  {
+    "role": "user",
+    "content": "What is rag in gen ai"
+  },
+  {
+    "role": "bot",
+    "content": "In the context of Generative AI, RAG is not a commonly used term. RAG refers to a traffic light system used to represent the status or risk level of projects, issues, or risks. However, in Generative AI, terms like training data, model architecture, loss function, and evaluation metrics are more relevant."
+  }
+]
