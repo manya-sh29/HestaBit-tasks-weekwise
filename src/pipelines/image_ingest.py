@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../embe
 
 from PIL import Image
 import pytesseract
-from clip_embedder import CLIPEmbedder
+from src.embeddings.clip_embedder import CLIPEmbedder
 from transformers import BlipProcessor, BlipForConditionalGeneration, CLIPProcessor
 
 RAW_IMAGE_FOLDER = "/home/manyasharma/Desktop/Week7-tasks/src/data/raw/images"
@@ -53,7 +53,7 @@ def process_image(image_path):
         "image_path": image_path,
         "ocr_text": ocr_text,
         "caption": caption,
-        "image_embedding": image_emb,
+        "image_embedding": image_emb, 
         "text_embedding": text_emb,
     }
 
@@ -72,13 +72,11 @@ def main():
         data = process_image(path)
         processed_data.append(data)
 
-    # Print results
     for data in processed_data:
         print(f"Image: {data['image_path']}")
         print(f"OCR Text: {data['ocr_text']}")
         print(f"Caption: {data['caption']}\n")
 
-    # Save processed data for retrieval
     output_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/processed_image_data.npy"))
     np.save(output_file, processed_data)
     print(f"\nProcessed data saved to '{output_file}'")

@@ -2,10 +2,11 @@ import os
 import sys
 import torch
 import numpy as np
+from PIL import Image
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../embeddings")))
 
-from clip_embedder import CLIPEmbedder
+from src.embeddings.clip_embedder import CLIPEmbedder
 
 DATA_PATH = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../data/processed_image_data.npy")
@@ -44,32 +45,37 @@ def rerank(scores, top_k=5):
     return [image_data[i] for i in indices]
 
 def search_images(query, top_k=5):
-    """
-    Day-3 Retrieval Flow:
-    Query → CLIP embedding → similarity scoring → reranking → traceable results
-    """
+   
     query_emb = embed_query(query)
     scores = retrieve_candidates(query_emb)
     results = rerank(scores, top_k)
     return results
 
+def embed_image_query(image_path: str):
+    image = Image.open(image_path).convert("RGB")
+    inputs = clip.processor(images=image, return_tensors="pt")
+    with torch.no_grad():
+        return clip.model.get_image_features(**inputs).squeeze().numpy()
+    
+
+
+def search_by_image(image_path, top_k=5):
+   
+    image_emb = embed_image_query(image_path)
+    scores = []
+    for item in image_data:
+        score = cosine_similarity(image_emb, item["image_embedding"])
+        scores.append(score)
+
+    indices = np.argsort(scores)[::-1][:top_k]
+    return [image_data[0]]
+
 def main():
-    print("Multimodal Image Search (CLIP-based)")
-    print("Type 'exit' to quit")
+    image_path="src/kpmg.png"
 
-    while True:
-        query = input("\nSearch query: ")
-        if query.lower() == "exit":
-            break
-
-        results = search_images(query, top_k=5)
-
-        print("\nTop Results:")
-        for idx, res in enumerate(results, 1):
-            print(f"\nResult {idx}")
-            print(f"Image Path : {res['image_path']}")
-            print(f"OCR Text  : {res['ocr_text'][:200]}")
-            print(f"Caption   : {res['caption']}")
+    results = search_by_image(image_path, top_k=5)
+    print("\nTop Results:")
+    print(results)
 
 if __name__ == "__main__":
     main()

@@ -7,4 +7,6 @@
 /src/embeddings/__pycache__
 /src/vectorstore/__pycache__
 /src/pipelines/__pycache__
-
+.env
+.pkl
+.faiss

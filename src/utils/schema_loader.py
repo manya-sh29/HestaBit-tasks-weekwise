@@ -1,9 +1,6 @@
 import sqlite3
 
 def load_schema(db_path: str) -> dict:
-    """
-    Loads database schema (tables + columns)
-    """
     print(db_path)
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()

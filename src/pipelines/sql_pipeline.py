@@ -1,8 +1,9 @@
 import sqlite3
 import re
 
-from src.utils.schema_loader import load_schema
-from src.generator.sql_generator import generate_sql
+from utils.schema_loader import load_schema
+from generator.sql_generator import generate_sql
+from generator.llm_client import LocalLLMClient
 
 
 def validate_sql(sql: str, schema: dict) -> bool:
@@ -24,17 +25,28 @@ def execute_sql(db_path: str, sql: str):
     return columns, rows
 
 
-def summarize_result(columns, rows) -> str:
+def summarize_result(question, columns, rows) -> str:
     if not rows:
         return "No results found."
+        
+    preview = "/n".join(
+        [", ".join(map(str, columns))]
+        + [", ".join(map(str, row)) for row in rows[:10]]
+    )
+    llm = LocalLLMClient()
+    prompt = f"""
+    You are an expert data analyst.
 
-    summary = "Results:\n"
-    for row in rows:
-        summary += ", ".join(
-            f"{col}: {val}" for col, val in zip(columns, row)
-        ) + "\n"
-    return summary
+    User question:
+    {question}
 
+    SQL query result preview:
+    {preview}
+
+    Summarize the result in a concise manner.
+    """
+
+    return llm.generate(prompt)
 
 def sql_qa_pipeline(user_query: str, db_path: str):
     schema = load_schema(db_path)
@@ -45,5 +57,7 @@ def sql_qa_pipeline(user_query: str, db_path: str):
         return "Generated SQL is unsafe or invalid."
 
     columns, rows = execute_sql(db_path, sql)
-
-    return summarize_result(columns, rows)
+    print("SQL Execution Result:", columns, rows)
+    result = summarize_result(user_query, columns, rows)
+    print("Final Answer:", result)
+    return result

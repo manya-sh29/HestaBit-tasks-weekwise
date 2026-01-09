@@ -29,13 +29,13 @@ SQL:
     raw_output = llm.generate(prompt)
     text = str(raw_output)
 
-    # ✅ EXTRACT FIRST SELECT QUERY (THIS FIXES EVERYTHING)
     match = re.search(r"(SELECT .*?;)", text, re.IGNORECASE | re.DOTALL)
 
     if not match:
         raise ValueError("LLM did not return valid SQL")
 
     sql = match.group(1).strip()
+    print("Generated SQL:", sql)
     return sql
 
 

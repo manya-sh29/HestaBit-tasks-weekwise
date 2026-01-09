@@ -25,3 +25,10 @@
 2025-12-31 16:08:45,525 - INFO - Generated embeddings for all chunks.
 2025-12-31 16:08:45,860 - INFO - Stored vectors and metadata in FAISS.
 2025-12-31 16:08:45,860 - INFO - Ingestion pipeline completed successfully.
+2026-01-08 17:32:30,507 - INFO - Starting ingestion pipeline...
+2026-01-08 17:33:31,371 - INFO - Starting ingestion pipeline...
+2026-01-08 17:33:59,015 - INFO - Loaded 12437 documents.
+2026-01-08 17:34:04,430 - INFO - Created 66431 chunks.
+2026-01-08 18:09:02,451 - INFO - Generated embeddings for all chunks.
+2026-01-08 18:09:02,742 - INFO - Stored vectors and metadata in FAISS.
+2026-01-08 18:09:02,742 - INFO - Ingestion pipeline completed successfully.

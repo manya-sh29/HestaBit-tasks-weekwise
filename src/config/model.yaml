@@ -1,3 +1,16 @@
-provider: local
-model_name: sentence-transformers/all-MiniLM-L6-v2
-api_key_env: null
+provider: huggingface
+model_name: mistralai/Mistral-7B-Instruct-v0.2
+model_type: causal_lm
+inference: local
+
+load_params:
+  device_map: auto
+  torch_dtype: auto
+
+generation_params:
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.0
+
+tokenizer:
+  use_fast: true

@@ -26,7 +26,10 @@ class LocalLLMClient:
             do_sample=False
         )
 
-        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        decode = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        if decode.startswith(text):
+            return decode[len(text):].strip()
+        return decode.strip()
 
 def get_llm_client():
     return LocalLLMClient()
@@ -37,4 +40,3 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",
     dtype="auto"
 )
-print(model)
