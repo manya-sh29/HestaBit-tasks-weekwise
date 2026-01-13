@@ -1,5 +1,5 @@
 {
-  "name": "day4-server",
+  "name": "day5-server",
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
@@ -7,6 +7,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "mongoose": "^9.1.3"
   }
 }
